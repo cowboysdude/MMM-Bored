@@ -1,0 +1,14 @@
+{
+  "name": "mmm-bored",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MMM-Bored.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cowboysdude",
+  "license": "MIT",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^5.0.0"
+  }
+}
