@@ -7,7 +7,7 @@
 Module.register("MMM-Bored", {
 
     defaults: {
-        updateInterval: 1 * 60 * 1000,
+        updateInterval: 60 * 60 * 1000,
         animationSpeed: 1000,
         initialLoadDelay: 875 
     },
@@ -71,7 +71,6 @@ Module.register("MMM-Bored", {
 
     processFacts: function(data) {
         this.fact = data;
-console.log(this.fact);
         this.loaded = true;
         this.updateDom(this.config.animationSpeed);
     },
